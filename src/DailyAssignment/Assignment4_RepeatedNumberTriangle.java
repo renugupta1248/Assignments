@@ -1,0 +1,19 @@
+package DailyAssignment;
+
+public class Assignment4_RepeatedNumberTriangle {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		int num=1;
+		for(int row=1; row<=5; row++) {
+			for (int col=1;col<=row;col++) {
+				System.out.print(num);
+			}
+			num++;
+			System.out.println();
+		}
+
+	}
+
+}
